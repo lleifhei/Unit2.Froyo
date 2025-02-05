@@ -1,9 +1,8 @@
-const flavors = {
-    flavor1: 'vanilla',
-    flavor2: 'coffee',
-    flavor3: 'chocolate',
+const icecream = {
+    flavor1: "vanilla",
+    flavor2: "strawberry",
+    flavor3: "coffee"
 }
-for (let key in flavors) {
-    console.log(key, flavors[key]);
+for (const key in icecream) {
+    console.log(icecream[key]);
 }
-
